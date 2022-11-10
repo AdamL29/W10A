@@ -13,8 +13,6 @@ function users(user1, user2, user3, user4, user5, user6, user7, user8, use9, use
 }
 
 
-
-function element() {
-    console.log();
-    
-}
+const element = `photons`;
+console.log(element.startsWith(`ph`));
+console.log(element.startsWith(`ph, 2`));
